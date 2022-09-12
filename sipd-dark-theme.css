@@ -293,6 +293,27 @@ div.frpanel-title.font-medium.bgpanel-theme {
   background: #424242;
 }
 
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #555; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: black; 
+}
+
 label.col-xs-12.font-bold {
   color: #efbbef !important;
 }
@@ -342,4 +363,25 @@ div label span {
 
 .table > tbody > tr > td.font-bold {
   color: #efbbef !important;
+}
+div.panel-body {
+  background: var(--hitam);
+}
+
+#side-menu li.devider {
+    margin:0;
+    border-top: 1px solid rgb(255 255 255 / 30%);
+}
+
+.slimscrollsidebar{
+  background: var(--hitam);
+}
+
+.sweet-alert {
+    background-color: #2b2b2b;
+    border: 1px solid gray;
+}
+
+.sweet-alert button.cancel {
+    background-color: #484848;
 }
