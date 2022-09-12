@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=Droid+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+body {
+  color: #d8d8d8;
+}
+
+div.dataTables_wrapper.no-footer {
+  font-family: "Inter";
+}
+
+.dataTables_scrollBody {
+  font-family: "Inter";
+  max-height: 100%;
+}
+
+.font-xbold {
+  color: rgb(114, 172, 247);
+}
+
+.dataTables_scrollBody {
+  height: 100%;
+}
+
+.navbar-header {
+  background: #777;
+}
+
+.top-left-part {
+  background: #777;
+}
+
+.font-bold {
+  color: rgb(182, 130, 81);
+}
+
+#timer {
+  background: rgba(125, 125, 125, 0.5);
+  background: rgb(255 255 255 / 50%) !important;
+  backdrop-filter: blur(5px);
+  box-shadow: 5px 7px 20px 5px #00000036;
+}
+
+#days {
+  color: white;
+}
+
+#hours {
+  color: white;
+}
+
+#minutes {
+  color: white;
+}
+
+#seconds {
+  color: white;
+}
+
+#days {
+  color: black;
+}
+
+#hours {
+  color: black;
+}
+
+#minutes {
+  color: black;
+}
+
+#seconds {
+  color: black;
+}
+
+#timer span {
+  color: black;
+}
+
+label#titles {
+  color: black;
+}
+
+.font-bold {
+  color: rgb(124 109 169) !important;
+}
+
+background {
+  color: black;
+}
+
+:root {
+  --hitam: #333842;
+}
+
+#page-wrapper {
+  padding: 0 0 60px;
+  min-height: 568px;
+  background: var(--hitam);
+  transition: all 0.5s ease;
+}
+
+.white-box {
+  position: relative;
+  background: var(--hitam);
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 0.55rem;
+  box-shadow: 0px 1px 15px 1px rgb(62 57 107 / 7%);
+  border: 1pxsolidrgba (0, 0, 0, 0.2);
+}
+
+.content-wrap {
+  background: var(--hitam);
+}
+
+.tabs-style-bar nav ul li a {
+  margin: 0 2px;
+  background-color: var(--hitam);
+  color: #686868;
+  padding: 5px 0;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.well,
+pre {
+  background: var(--hitam);
+  border-radius: 0;
+}
+
+table.dataTable tbody tr {
+  background-color: var(--hitam);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #eaeaea;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  margin: 10px 0;
+  font-weight: 400;
+}
+
+/* garis tabel */
+.table-bordered,
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
+  border-top: 1px solid gray;
+  color: white;
+}
+
+.bg-cloud-2 {
+  background: rgba(237, 237, 237, 1);
+  background: -moz-linear-gradient(
+    top,
+    rgba(237, 237, 237, 1) 0%,
+    rgba(250, 250, 250, 1) 43%,
+    rgba(227, 227, 227, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    left bottom,
+    color-stop(0%, rgba(237, 237, 237, 1)),
+    color-stop(43%, rgba(250, 250, 250, 1)),
+    color-stop(100%, rgba(227, 227, 227, 1))
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(237, 237, 237, 1) 0%,
+    rgba(250, 250, 250, 1) 43%,
+    rgba(227, 227, 227, 1) 100%
+  );
+  background: -o-linear-gradient(
+    top,
+    rgba(237, 237, 237, 1) 0%,
+    rgba(250, 250, 250, 1) 43%,
+    rgba(227, 227, 227, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    top,
+    rgba(237, 237, 237, 1) 0%,
+    rgba(250, 250, 250, 1) 43%,
+    rgba(227, 227, 227, 1) 100%
+  );
+  background: black;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#e3e3e3', GradientType=0 );
+}
+
+#filter_table {
+  background-image: url(/assets/plugins/images/searchicon.png);
+  background-position: 10px 16px;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-color: rgb(0 0 0);
+  font-size: 20px;
+  padding: 12px 20px 12px 40px;
+  border: 0;
+  border-bottom: 2px solid #ff7a7a;
+  margin-bottom: 12px;
+}
+
+footer {
+  display: none;
+}
+
+a {
+  color: #9bd1ff !important;
+  text-decoration: none !important;
+}
+
+.row.bg-title {
+  display: none;
+}
+
+.navbar-header {
+  background: #333842 !important;
+}
+
+.top-left-part {
+  background: #333842 !important;
+}
+
+.text-info {
+  color: #88bce9;
+}
+
+.bg-white {
+  background-color: #000;
+}
+
+.text-grey-darker {
+  color: #9fb3c3;
+}
+
+button.btn.bg-cloud.btn-outline.waves-effect.waves-light.m-t-15 {
+  background-color: #666666;
+  color: #ffffff;
+}
+
+div.alert.alert-info-matte {
+  background-color: #0277bd;
+  color: #e3f2fd;
+  margin-top: 20px;
+}
+
+li a span {
+  color: #e0e0e0;
+}
+
+li.tab-current {
+  background-color: #1565c0;
+}
+
+a.sticon.ti-info-alt {
+  background-color: #0d47a1;
+  color: #e1f5fe;
+}
+
+div.media.card-primary.card-outline {
+  background-color: #263238;
+}
+input.dttable-filter {
+  color: #fafafa;
+}
+a.paginate_button {
+  background-color: #616161;
+  color: #fffde7;
+}
+a.paginate_button.previous.disabled {
+  color: #e8eaf6;
+}
+
+button.fcbtn.btn.btn-success.btn-outline.btn-1b.windowtoggle.tambah-detil {
+  color: greenyellow;
+}
+
+div.slimscrollright {
+  background-color: #424242;
+}
+
+div.frpanel-title.font-medium.bgpanel-theme {
+  background: #424242;
+}
+
+label.col-xs-12.font-bold {
+  color: #efbbef !important;
+}
+
+div.select2-container.form-control.select2 {
+  background: #484848;
+}
+
+input.form-control {
+  background: #484848;
+  color: white;
+}
+
+tbody tr td {
+  background-color: #484848;
+}
+
+a.waves-effect {
+  background-color: #333842 !important;
+}
+
+ul li a {
+  background-color: #333842 !important;
+}
+
+div.modal-body {
+  background-color: #333842;
+}
+
+input.dttable2-filter {
+  background-color: #333842;
+  color: white;
+}
+
+div label select {
+  background-color: #333842;
+  color: white;
+}
+
+div.modal-footer {
+  background-color: #333842;
+}
+
+div label span {
+  color: white;
+}
+
+.table > tbody > tr > td.font-bold {
+  color: #efbbef !important;
+}
